@@ -17,7 +17,7 @@ public class Shape implements Shapeable
 	public String Erase() {
 		
 		return "Figure is being erased";
-
+	}
 	@Override
 	public double CalculateArea() {
 		

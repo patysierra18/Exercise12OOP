@@ -23,6 +23,8 @@ public class Square extends Shape
 	{
 		return 4*side;
 	}
+	
+	//getter and setter
 	public double getSide() {
 		return side;
 	}
