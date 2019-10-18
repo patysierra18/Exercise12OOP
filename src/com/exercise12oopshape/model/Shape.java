@@ -1,6 +1,6 @@
 package com.exercise12oopshape.model;
 
-public class Shape implements Shapeable 
+public class Shape implements Shapeable, Lineable
 {
 
 	@Override
@@ -28,6 +28,12 @@ public class Shape implements Shapeable
 	public double CalculatePerimeter() {
 		// TODO Auto-generated method stub
 		return 0;
+	}
+
+	@Override
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
 	}
 }
 
